@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            List Restaurants
+        </title>
+        <link rel="stylesheet" href="list.css" />
+    </head>
+    <body>
+        <header>
+            <div id="headerText">Developer Funnel</div>
+            <div id="socialIcon">
+                <img src="images/facebook.png" alt="Facebook">
+                <img src="images/insta.png" alt="Instagram">
+                <img src="images/youtube1.png" alt="YouTube">
+            </div>
+        </header>
+            <div id="mainContainer">
+                <div id="contentSection">
+                        <div id="leftContainer">
+                            <div id="leftContainerHeading">
+                                Filters
+                            </div>
+                            <div class="leftContainerCat">
+                                <div class="leftContainerCatName">
+                                    Cusines
+                                </div>  
+                                
+                                <ul> 
+                                    <li><input type="radio" name="cusine" checked/> North Indian</li>
+                                    <li><input type="radio" name="cusine" /> South Indian</li>
+                                    <li><input type="radio" name="cusine" /> Chinese</li>
+                                    <li><input type="radio" name="cusine" /> Punjabi</li>
+                                    <li><input type="radio" name="cusine" /> Mexican</li>
+                                </ul>                    
+                            </div>
+                            <div class="leftContainerCat">
+                                <div class="leftContainerCatName">
+                                    Cost per Person
+                                </div>  
+                                <ul> 
+                                    <li><input type="radio" name="cost" />< 100</li>
+                                    <li><input type="radio" name="cost" /> 100 to 200</li>
+                                    <li><input type="radio" name="cost" checked/> 200 to 300</li>
+                                    <li><input type="radio" name="cost" /> 300 to 500</li>
+                                    <li><input type="radio" name="cost" /> above 500  </li>
+                                </ul>
+                            </div>
+                            <div class="leftContainerCat">
+                                <div class="leftContainerCatName">
+                                    Distance from you
+                                </div>
+                                <ul> 
+                                    <li><input type="radio" name="distance" /> 1 Km Radius</li>
+                                    <li><input type="radio" name="distance" checked /> 2 Km Radius</li>
+                                    <li><input type="radio" name="distance" /> 5 Km Radius</li>
+                                    <li><input type="radio" name="distance" /> More than 5 Kms</li>
+                                    
+                                </ul>  
+                            </div>
+                        </div>
+                    
+                    <div id="rightContainer">
+                        <div id="searchbox">
+                                <input type="text" id="searchInput" placeholder="Search by Restaurant's Name"/>
+                        </div>   
+                        <div>
+                            <span></span>
+                            <p>Search Result for: <strong><i>"Cusine: North Indian, Cost: Rs.200 to Rs.300, Distance: 2 Km Radius"</i></strong></p>
+                            <p>Number of Results: <strong>23</strong></p>
+                        </div>
+                        <div id="restList">
+                            <div id="restDetail">    
+                                <img src="images/north_tadka.webp" />
+                                <div id="restText">
+                                     
+                                    <div id="restShortDes">
+                                        <h2>Punjabi Tadka</h2>
+                                        <div class="bottomMargin">&#9733; &#9733; &#9733; &#9733; &#9733;- <a href="javascript:void(0)">69 Reviews</a> </div>
+                                        
+                                        <div class="darkRedFont">#1 of 420 restaurants in Ahmedabad</div>
+                                        <div>Open now  6:30AM - 11:30PM</div>
+                                        <div>Asian, Indian, International, Vegetarian options</div>
+                                        <div class="boldFont">Rs. 250.00</div>
+                                        <div>
+                                            <input type="button" value="Lunch" class="blueBtn" /> 
+                                            <input type="button" value="Dinner" class="redBtn" /> 
+                                        </div>
+                                        <div>
+                                            <input type="button" value="North Indian" class="orangeBtn" /> 
+                                            <input type="button" value="Chinese" class="yellowBtn" /> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="restDetail">    
+                                <img src="images/paneer-s.webp" />
+                                <div id="restText">
+                                     
+                                    <div id="restShortDes">
+                                        <h2>The Flavour Fare</h2>
+                                        <div class="bottomMargin">&#9733; &#9733; &#9733; &#9733; &#9734; - <a href="javascript:void(0)">223 Reviews</a> </div>
+                                        
+                                        <div class="darkRedFont">#2 of 420 restaurants in Ahmedabad</div>
+                                        <div>Open now  4:30AM - 11:30PM</div>
+                                        <div>Asian, Indian, International, Vegetarian options</div>
+                                        <div class="boldFont">Rs. 300.00</div>
+                                        <div>
+                                            <input type="button" value="Dinner" class="blueBtn" /> 
+                                            <input type="button" value="Night Life" class="redBtn" /> 
+                                        </div>
+                                        <div>
+                                            <input type="button" value="North Indian" class="orangeBtn" /> 
+                                            <input type="button" value="Mexican" class="yellowBtn" /> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div id="restDetail">    
+                                <img src="images/restuarant1.jpeg" />
+                                <div id="restText">
+                                     
+                                    <div id="restShortDes">
+                                        <h2>AM 2 PM Parathas</h2>
+                                        <div class="bottomMargin">&#9733; &#9733; &#9734; &#9734; &#9734;- <a href="javascript:void(0)">132 Reviews</a> </div>
+                                        
+                                        <div class="darkRedFont">#3 of 420 restaurants in Ahmedabad</div>
+                                        <div>Open now  10:30AM - 11:30PM</div>
+                                        <div>Asian, Indian, International, Vegetarian options</div>
+                                        <div class="boldFont">Rs. 150.00</div>
+                                        <div>
+                                            <input type="button" value="Lunch" class="blueBtn" /> 
+                                            <input type="button" value="Dinner" class="redBtn" /> 
+                                        </div>
+                                        <div>
+                                            <input type="button" value="North Indian" class="orangeBtn" /> 
+                                            <input type="button" value="Chinese" class="yellowBtn" /> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+    </body>
+</html>
