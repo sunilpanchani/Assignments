@@ -75,6 +75,7 @@ header{
     border-radius: 5px;
     border-color: #3333;
     height: 26px;
+    border: 1px solid lightgray cyan;
 }
 
 
