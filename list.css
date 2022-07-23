@@ -25,7 +25,7 @@ header{
     width: 50px;
 }
 #mainContainer{
-    height:1000px;
+    height:1200px;
     
 }
 #contentSection{
@@ -90,13 +90,16 @@ header{
     border-radius: 10px;
     margin-bottom: 25px;
 }
-
-#restDetail img{ 
-    float: left;
+#restImg{
     width: 40%;
+}
+#restImg img{ 
+    float: left;
+    width: 100%;
     margin-left: 25px;
     border-radius: 15px;
     margin-top: 22px;
+    height: 245px;
 }
 
 #restText{
